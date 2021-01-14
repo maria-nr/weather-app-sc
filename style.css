@@ -1,4 +1,103 @@
 h1{
     text-align: center;
-    color: aquamarine;
+    color: #6272CD;
+    margin-top: 40px;
+    font-size: 60px;
+}
+
+.subtitle {
+    text-align: center;
+    color: #7b86c4;
+    font-size: 31px;
+    margin-top: -20px;
+}
+
+a{
+    font-size: 20px;
+    color: indigo;
+}
+.units{
+    margin-bottom: 5px;
+}
+
+
+.cloudy{
+    display: block;
+    margin: 0 auto;
+    width: 130px;
+    margin-top: -10px;
+    
+}
+
+.cloudyimage{
+    text-align: center;
+    font-size: 100px;
+    color: rgb(51, 49, 49);
+}
+.search {
+    position: fixed;
+    top: 10px;
+    right: 250px;
+    padding: 10 px;
+    
+}
+.form-control-sm{
+    background-color: rgba(216, 180, 241, 0.103);
+}
+
+h2{
+    text-align: center;
+    font-size: 30px;
+
+}
+.col-4{
+    text-align: center;
+}
+.drop{
+    padding: 6px;
+    font-size: 20px;
+    color: cornflowerblue;
+}
+.umbrella{
+    padding: 6px;
+    font-size: 22px;
+    color: cornflowerblue;
+}
+.col-md-auto{
+    font-size: 10px;   
+}
+.humidity{
+    padding: 5px;
+}
+.rain{
+    padding: 5px;
+}
+
+.sports{
+    padding-right: 450px;
+}
+p{
+    color: #6272CD;
+    padding-left: 50px;
+    font-size: 30px;
+    background-color: rgba(216, 180, 241, 0.103);
+    background-position: inherit;
+    margin-top: 36px;
+    margin-bottom: -10rem;
+}
+
+.topimage {
+    display: block;
+    margin: 0 auto;
+    width: 900px;
+    
+}
+.card-title{
+    text-align: center;
+}
+
+.footerinfo {
+    text-align: center;
+    margin: 0 auto;
+    color: cornflowerblue;
 }
