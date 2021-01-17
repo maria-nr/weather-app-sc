@@ -34,7 +34,7 @@ function addHours() {
   function searchCity(event) {
     //event.preventDefault();
     let apiKey = "c522524629fe11fe83aebe5bb3814efa";
-    let city = document.querySelector("city-input").value;
+    let city = document.querySelector("#city-input").value;
     let apiUrl = `https://api.openweathermap.org/data/2.5/weather?q=${city}&units=metric`;
     axios.get(`${apiUrl}&appid=${apiKey}`).then(showTemperature);
   }
